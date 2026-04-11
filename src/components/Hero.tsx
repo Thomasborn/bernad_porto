@@ -68,10 +68,10 @@ export function Hero() {
             transition={{ duration: 1.5, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="lg:col-span-4 flex justify-end items-center relative"
           >
-            <div className="relative w-full max-w-[400px] aspect-[3/4] lg:aspect-[4/5] rounded-full overflow-hidden mask-oval bg-surface shadow-2xl">
+            <div className="relative w-full max-w-[400px] aspect-[4/4] lg:aspect-[5/5] rounded-full overflow-hidden mask-oval bg-surface shadow-2xl">
               <motion.img
                 style={{ y }}
-                src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+                src="\public\Self.jpg"
                 alt="Abstract creative visual"
                 className="w-full h-[130%] object-cover scale-110 hover:scale-100 transition-transform duration-1000 ease-out origin-top"
                 referrerPolicy="no-referrer"
@@ -103,13 +103,40 @@ export function Hero() {
         className="container mx-auto px-6 md:px-12 mt-24 flex justify-between items-end pb-8"
       >
         <div className="flex gap-6">
-          {["LinkedIn", "Dribbble", "GitHub"].map((social) => (
+          {["LinkedIn"].map((linkedin) => (
             <a
-              key={social}
-              href="#"
+              key={linkedin}
+              href="https://www.linkedin.com/in/bernardinus-odie-kristiawan/"
               className="text-xs font-bold uppercase tracking-widest text-ink/60 hover:text-ink transition-colors"
             >
-              {social}
+              {linkedin}
+            </a>
+          ))}
+          {["Github"].map((github) => (
+            <a
+              key={github}
+              href="https://github.com/bredelsss"
+              className="text-xs font-bold uppercase tracking-widest text-ink/60 hover:text-ink transition-colors"
+            >
+              {github}
+            </a>
+          ))}
+          {["Instagram"].map((instagram) => (
+            <a
+              key={instagram}
+              href="https://www.instagram.com/bernardberrr/"
+              className="text-xs font-bold uppercase tracking-widest text-ink/60 hover:text-ink transition-colors"
+            >
+              {instagram}
+            </a>
+          ))}
+          {["Twitter"].map((twitter) => (
+            <a
+              key={twitter}
+              href="https://twitter.com/OdieKristiawan"
+              className="text-xs font-bold uppercase tracking-widest text-ink/60 hover:text-ink transition-colors"
+            >
+              {twitter}
             </a>
           ))}
         </div>

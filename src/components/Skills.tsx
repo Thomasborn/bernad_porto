@@ -3,15 +3,11 @@ import { motion } from "motion/react";
 const skills = [
   {
     category: "Design",
-    items: ["UI/UX Design", "Wireframing", "Prototyping", "Design Systems", "Interaction Design", "Figma", "Adobe Creative Suite"],
-  },
-  {
-    category: "Development",
-    items: ["HTML/CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion", "Git"],
+    items: ["UI/UX Design", "Wireframing", "Prototyping", "Design Systems", "Interaction Design", "Figma", "Adobe Creative Suite", "Affinity", "Canva", "Capcut"],
   },
   {
     category: "Marketing",
-    items: ["SEO Strategy", "Content Marketing", "Social Media Management", "Google Analytics", "Email Campaigns", "Copywriting"],
+    items: ["Content Marketing", "Social Media Management", "Copywriting"],
   },
 ];
 

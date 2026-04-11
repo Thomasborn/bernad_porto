@@ -3,24 +3,18 @@ import { motion } from "motion/react";
 const experiences = [
   {
     id: 1,
-    date: "2023 — Present",
-    company: "Creative Studio",
-    role: "Senior UI/UX Designer",
-    impact: "Led the design of multiple high-profile client projects, increasing overall user engagement by 35% across platforms.",
+    date: "2024 — Present",
+    company: "Indomaret Group",
+    role: "Jr. Supervisior in Logistic Support & Development",
+    impact: "Monitoring national logistics reports, following up on the smooth execution of DC logistic bussines processes.",
   },
-  {
-    id: 2,
-    date: "2021 — 2023",
-    company: "Tech Startup Inc.",
-    role: "Frontend Developer",
-    impact: "Developed and maintained scalable React applications, optimizing performance and reducing load times by 40%.",
-  },
+  
   {
     id: 3,
-    date: "2019 — 2021",
-    company: "Digital Agency",
-    role: "Digital Marketing Specialist",
-    impact: "Managed comprehensive SEO and SEM campaigns, driving a 50% increase in organic traffic for key clients.",
+    date: "2023 — 2024",
+    company: "Etnicode Digital Solutions",
+    role: "Digital Marketing & Wordpress Developer Internship",
+    impact: "Created and managed WordPress websites for internal company. Create, plan, and execute digital marketing campaigns, including web, social media and display advertising campaigns.",
   },
 ];
 
@@ -41,7 +35,7 @@ export function Experience() {
                 02 — Experience
               </h2>
               <p className="text-xl md:text-2xl font-medium leading-relaxed text-balance text-bg/80">
-                A track record of delivering impactful digital solutions across design, development, and marketing.
+                With a proven trak record of delivering impactful logistic solutions across supply chain, operations, and distribution, as well as impactfull digital solutions across marketing campaigns, UI design.
               </p>
             </motion.div>
           </div>

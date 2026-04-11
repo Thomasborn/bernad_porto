@@ -55,7 +55,7 @@ export function About() {
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             >
               <h3 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold tracking-tighter leading-[1.1] text-balance mb-12">
-                Designing with intent. Building with precision. Marketing with insight.
+                Designing with intent.
               </h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 text-lg text-ink/80 leading-relaxed font-medium">
@@ -63,7 +63,7 @@ export function About() {
                   As a multidisciplinary creative, I don't just design interfaces; I craft comprehensive digital ecosystems. My approach is rooted in understanding the core user problem and solving it through intuitive, elegant, and scalable solutions.
                 </p>
                 <p>
-                  With a background spanning UI/UX design, front-end development, and digital marketing strategy, I bring a holistic perspective to every project. I believe that the best products are born at the intersection of human empathy and technical excellence.
+                  With a background spanning UI/UX design, and digital marketing strategy, I bring a holistic perspective to every project. I believe that the best products are born at the intersection of human empathy and technical excellence.
                 </p>
               </div>
             </motion.div>

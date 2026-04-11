@@ -36,9 +36,14 @@ export function Navbar() {
         }`}
       >
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-          <a href="#" className="font-display font-bold text-xl tracking-tighter uppercase relative z-50">
-            B. Odie
+          <div className="gap-4 flex items-left">
+            <img src="\public\Group6.png" alt="Company Logo" width="30" height="40" />
+            <a href="#" className="font-display font-bold text-xl tracking-tighter uppercase relative z-50">
+            Bredels
           </a>
+          </div>
+          
+          
           
           <nav className="hidden md:flex items-center gap-8">
             {["About", "Work", "Experience", "Contact"].map((item) => (

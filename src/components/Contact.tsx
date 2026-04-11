@@ -26,7 +26,7 @@ export function Contact() {
           </p>
           
           <motion.a
-            href="mailto:hello@example.com"
+            href="mailto:odiebernardinus@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="mt-8 group relative inline-flex items-center justify-center px-8 py-4 bg-ink text-bg font-bold uppercase tracking-widest text-sm overflow-hidden rounded-full"
